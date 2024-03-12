@@ -5,6 +5,7 @@
   text-decoration: none;
   list-style: none;
   scroll-behavior: smooth;
+   font-family: "Lato", sans-serif;
 }
 
 /* mar ups */
@@ -30,7 +31,7 @@
 }
 #logo {
   font-size: 36px;
-  font-weight: 700;
+  font-weight: 550;
   color: black;
   text-shadow: 0px 1px 1px black;
   margin-bottom: 5px;
@@ -62,6 +63,75 @@
     border: none;
 }
 #navbar form button:hover{
+    background: black;
+    color: white;
+}
+
+/* Home Section */
+.home{
+    width: 100%;
+    height: 120vh;
+    background-image: url(images/bg3.jpg);
+       background-repeat: no-repeat;
+    background-size: cover;
+}
+.home .content{
+    text-align: center;
+    padding-top: 200px;
+}
+.home .content h5{
+    color: white;
+    font-size: 43px;
+    font-weight: 550;
+    text-shadow: 0px 1px 1px black;
+}
+.home .content h1{
+    color: white;
+    font-size: 70px;
+    font-weight: 550;
+    text-shadow: 0px 1px 1px black;
+    margin-top: 5px;
+}
+.changecontent::after{
+    content: '';
+    color: #ffa500;
+    text-shadow: 0px 1px 1px black;
+    animation: changetext 10s infinite linear;
+}
+@keyframes changetext{
+    0%{content: "France";}
+    10%{content: "Spain";}
+    20%{content: "United States";}
+    30%{content: "China";}
+    40%{content: "Ghana";}
+    50%{content: "Saudi Arabia";}
+    60%{content: "Italy";}
+    70%{content: "India";}
+    80%{content: "Turkey";}
+    90%{content: "United Kingdom";}
+    100%{content: "Nigeria";}
+}
+.home .content p{
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    text-shadow: 0px 1px 1px black;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+.home .content .btn{
+    padding: 10px 15px;
+    background:  #ffa500;
+    color: white;
+    letter-spacing: 2px;
+    font-weight: 550;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.5S;
+    border: #ffa500;
+
+}
+.home .content .btn:hover{
     background: black;
     color: white;
 }
