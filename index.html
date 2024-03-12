@@ -24,9 +24,29 @@
     
 
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg id" id="navbar">
-        <div class="container">
+    <nav class="navbar navbar-expand-lg py-3" id="navbar">
+        <div class="container ">
           <a class="navbar-brand" href="index.html" id="logo"><span>T</span>ravel</a>
+
+          <!-- mark ups -->
+          <div class="order-lg-2 nav-btns px-2">
+            <button type="button" class="btn position-relative">
+              <i class="fa fa-plane"></i>
+              <span
+                class="position-absolute top-0 start-100 translate-middle badge bg-primary"
+                >5</span
+              >
+            </button>
+            <button type="button" class="btn position-relative">
+              <i class="fa fa-train"></i>
+              <span
+                class="position-absolute top-0 start-100 translate-middle badge bg-primary"
+                >2</span
+              >
+            </button>
+            
+          </div>
+          <!-- end -->
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -53,7 +73,7 @@
               
             </ul>
             <form class="d-flex">
-              <input class="form-control me-2" type="text" placeholder="Search">
+              <input class="form-control me-2" type="text" placeholder="Search...">
               <button class="btn btn-primary" type="button">Search</button>
             </form>
           </div>
