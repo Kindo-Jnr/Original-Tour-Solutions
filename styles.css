@@ -260,3 +260,13 @@ font-weight: 600;
  .services .card .card-body{
     text-align: center;
  }
+ .packages-img img{
+    transition: all 0.3s ease-in-out
+ }
+ .packages-img:hover img{
+    transform: scale(1.1);
+ }
+ .carousel-caption h5{
+font-size: 36px;
+font-weight: 600;
+ }
