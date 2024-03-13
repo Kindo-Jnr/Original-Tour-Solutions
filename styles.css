@@ -20,9 +20,9 @@
     border: 1px solid rgb(85, 85, 85);
   }
   .btn:not(.nav-btns button):hover {
-    background-color: #e5345b;
+    background-color: #ffa500;
     color: #fff;
-    border-color: #e5345b;
+    border-color: #ffa500;
   }
 
 /* Navbar */
@@ -230,4 +230,9 @@ font-weight: 600;
     background: #ffa500;
     color: white;
     border-radius: 5px;
+    transition: 0.5s;
+ }
+ .packages .card .card-body a:hover{
+    background: black;
+    
  }
